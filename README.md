@@ -3,16 +3,16 @@ Com.cave Fehltagerechner, für alle die ein Problem mit ihren Fehlzeiten haben
 
 In der Schule wird jede Minute als Fehlzeit gezählt. Sobald sich 10 % Fehlzeiten angesammelt haben, wird man von der Teilnahme an der IHK-Prüfung ausgeschlossen. Mit diesem Rechner gibt man die verbleibenden Tage bis zur IHK-Prüfung sowie die aktuelle Fehlzeit-Prozentzahl und die angestrebte Prozentzahl ein. Der Rechner gibt daraufhin aus, wie viele Tage man in Folge anwesend sein muss, um die angestrebte Prozentzahl zu erreichen. Dabei werden nur die Arbeitstage berücksichtigt, nicht die Wochenenden.
 
-Features ✨
+### Features ✨<br>
 Berechnet die erforderlichen Anwesenheitstage basierend auf aktuellen und gewünschten Fehlzeiten
 
-Berücksichtigt Feiertage
+✨ Berücksichtigt Feiertage
 
-Benutzerfreundliches GUI mit Tkinter
+✨ Benutzerfreundliches GUI mit Tkinter
 
-Einfache Eingabe von Daten
+✨ Einfache Eingabe von Daten
 
-Visuelle Darstellung der Ergebnisse
+✨ Visuelle Darstellung der Ergebnisse
 
 **Benötigte pip-Pakete:**<br>
 Pillow<br>
