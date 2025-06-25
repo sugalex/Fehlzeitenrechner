@@ -17,25 +17,26 @@ Berechnet die erforderlichen Anwesenheitstage basierend auf aktuellen und gewün
 **Benötigte pip-Pakete:**<br>
 Pillow<br>
 Wird für das Laden und Anzeigen von Bildern (z. B. das Logo) verwendet.<br>
-pip install Pillow
+```pip install Pillow ```
 
-requests<br>
+Requests:<br>
 Wird verwendet, um das Bild über eine URL herunterzuladen.<br>
-pip install requests<br>
+```pip install requests ```
 
 
 Feiertage manuell eintragen 🎉📆
 In diesem Code-Abschnitt werden alle Feiertage manuell eingetragen. Diese Feiertage werden später bei der Berechnung der Anwesenheitstage berücksichtigt, um sicherzustellen, dass nur die tatsächlichen Arbeitstage gezählt werden.
-# Feiertage manuell eintragen
-self.feiertage = <br>
-[<br>
-    date(2024, 12, 24),  # Heiligabend<br>
-    date(2024, 12, 25),  # Erster Weihnachtstag<br>
-    date(2024, 12, 26),  # Zweiter Weihnachtstag<br>
-    date(2024, 12, 31),  # Silvester<br>
-    date(2025, 1, 1),    # Neujahr<br>
-    date(2025, 3, 29),   # Beispiel-Feiertag<br>
-]<br>
-
+# Feiertage manuell eintragen 
+```python
+self.feiertage = 
+[
+    date(2024, 12, 24),  # Heiligabend
+    date(2024, 12, 25),  # Erster Weihnachtstag
+    date(2024, 12, 26),  # Zweiter Weihnachtstag
+    date(2024, 12, 31),  # Silvester
+    date(2025, 1, 1),    # Neujahr
+    date(2025, 3, 29),   # Beispiel-Feiertag
+]
+```
 ![image](https://github.com/user-attachments/assets/27e36b2c-6b6b-410b-8266-c661a98ee109)
 
