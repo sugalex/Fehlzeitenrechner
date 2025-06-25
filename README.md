@@ -14,10 +14,15 @@ Einfache Eingabe von Daten
 
 Visuelle Darstellung der Ergebnisse
 
-Installation 🚀
-Stelle sicher, dass du die folgenden Python-Pakete installiert hast:
+**Benötigte pip-Pakete:**<br>
+Pillow<br>
+Wird für das Laden und Anzeigen von Bildern (z. B. das Logo) verwendet.<br>
+pip install Pillow
 
-pip install pillow requests
+requests<br>
+Wird verwendet, um das Bild über eine URL herunterzuladen.<br>
+pip install requests<br>
+
 
 Feiertage manuell eintragen 🎉📆
 In diesem Code-Abschnitt werden alle Feiertage manuell eingetragen. Diese Feiertage werden später bei der Berechnung der Anwesenheitstage berücksichtigt, um sicherzustellen, dass nur die tatsächlichen Arbeitstage gezählt werden.
